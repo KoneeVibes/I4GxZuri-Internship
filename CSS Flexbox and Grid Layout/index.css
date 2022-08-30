@@ -1,0 +1,325 @@
+/* Base CSS */
+    body{
+    display: flex;
+    margin: 100px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    }
+    #left{
+        background-color: hsl(31, 77%, 52%);
+        padding: 50px;
+    }
+    #center{
+        background-color: hsl(184, 100%, 22%);
+        padding: 50px;
+    }
+    #right{
+        background-color: hsl(179, 100%, 13%);
+        padding: 50px;
+    }
+    .header{
+        font-family: 'Big Shoulders Display';
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #button1{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+    #button2{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+    #button3{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+
+    #button1:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(31, 77%, 52%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+    #button2:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(184, 100%, 22%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+    #button3:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(179, 100%, 13%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+
+/* For screen size of width = 375px */
+
+@media screen and (width:375px){
+    body{
+    display: flex;
+    margin: 100px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    }
+    #left{
+        background-color: hsl(31, 77%, 52%);
+        padding: 50px;
+    }
+    #center{
+        background-color: hsl(184, 100%, 22%);
+        padding: 50px;
+    }
+    #right{
+        background-color: hsl(179, 100%, 13%);
+        padding: 50px;
+    }
+    .header{
+        font-family: 'Big Shoulders Display';
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #button1{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+    #button2{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+    #button3{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+
+    #button1:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(31, 77%, 52%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+    #button2:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(184, 100%, 22%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+    #button3:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(179, 100%, 13%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+
+/* For screen size of 1440px */
+
+}
+@media screen and (width:1440px){
+    body{
+    display: flex;
+    margin: 100px;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca';
+    font-size: 15px;
+    }
+    #left{
+        background-color: hsl(31, 77%, 52%);
+        padding: 50px;
+    }
+    #center{
+        background-color: hsl(184, 100%, 22%);
+        padding: 50px;
+    }
+    #right{
+        background-color: hsl(179, 100%, 13%);
+        padding: 50px;
+    }
+    .header{
+        font-family: 'Big Shoulders Display';
+        font-size: 40px;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+    #button1{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(31, 77%, 52%);;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+    #button2{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(184, 100%, 22%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+    #button3{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        border-color: hsl(0, 0%, 95%);
+        color: hsl(179, 100%, 13%);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+    }
+
+    #button1:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(31, 77%, 52%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+    #button2:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(184, 100%, 22%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+    #button3:hover{
+        margin-top: 80px;
+        border: solid;
+        border-radius: 30px;
+        background-color: hsl(179, 100%, 13%);
+        border-color: hsl(0, 0%, 95%);
+        color: hsla(0, 0%, 100%, 0.75);;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        font-family: 'Lexend Deca';
+        cursor: pointer;
+    }
+
+}
+
