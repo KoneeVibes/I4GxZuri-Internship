@@ -1,0 +1,179 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+h1{
+    font-size: 60px;
+   
+}
+h2{
+    font-size: 50px;
+    
+}
+h3{
+    font-size: 15px;
+    
+}
+h4{
+    padding-left: 25px;
+}
+.navyblue{
+    color: navy;
+}
+.orange{
+    color: orange;
+}
+.maroon{
+    color: maroon;
+}
+.peach{
+    color: peachpuff;
+}
+nav>ul>li{
+    display: inline;
+    margin: 5px;
+}
+nav{
+    position: top;
+    margin-top: 50px;
+}
+.sub{
+    margin-top: 100px;
+    line-height: 25px;
+    display: flex;
+    align-items: center;
+    /* justify-content:flex-start; */
+}
+article{
+    margin-left: 50px;
+    margin-top: 30px;
+    border: solid;
+    border-color: navy;
+    padding: 5px;
+    padding-right: 30px;
+    
+}
+div{
+    display: flex;
+}
+input{
+    margin-top: 50px;
+    margin-left: 50px;
+    background-color: maroon;
+    border: 0;
+    padding: 30px;
+    font-size: 20px;
+    color: peachpuff;
+    border-radius: 15px;
+}
+img{
+    border: solid;
+    border-radius: 50%;
+    border-color: orange;
+}
+header{
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+footer{
+    text-align: center;
+    color: white;
+    padding: 5px;
+}
+.navyblue>a:link {
+  color: navy;
+  background-color: transparent;
+  text-decoration: none;
+}
+.navyblue>a:visited {
+  color: navy;
+  background-color: transparent;
+  text-decoration: none;
+}
+.navyblue>a:hover {
+  color: navy;
+  background-color: transparent;
+  text-decoration: none;
+}
+.navyblue>a:active {
+  color: navy;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.orange>a:link {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+.orange>a:visited {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+.orange>a:hover {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+.orange>a:active {
+  color: orange;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.maroon>a:link {
+  color: maroon;
+  background-color: transparent;
+  text-decoration: none;
+}
+.maroon>a:visited {
+  color: maroon;
+  background-color: transparent;
+  text-decoration: none;
+}
+.maroon>a:hover {
+  color: maroon;
+  background-color: transparent;
+  text-decoration: none;
+}
+.maroon>a:active {
+  color: maroon;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.peach>a:link {
+  color: peachpuff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.peach>a:visited {
+  color: peachpuff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.peach>a:hover {
+  color: peachpuff;
+  background-color: transparent;
+  text-decoration: none;
+}
+.peach>a:active {
+  color: peachpuff;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+

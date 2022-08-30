@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="registration.css">
+     <link href="https://fonts.googleapis.com/css2?family=Cookie&family=Lato:ital,wght@0,100;1,100&family=Lobster&family=Montserrat:wght@183;400;600&display=swap" rel="stylesheet">
+    <title>Registration Page</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li class="navyblue"><a href="about-me.html">About Me</a></li>
+                <li class="orange"><a href="contact.html">Contact Me</a></li>
+                <li class="maroon"><a href="#">Registration</a></li>
+                <li class="peach"><a href="loginpage.html">Login</a></li>
+            </ul>
+        </nav>
+        <h1>Registration Form</h1>
+        <nav>
+            <ul class="flex">
+                <li>
+                    <figure>
+                        <img src="phone-call-removebg-preview.png" alt="phone number" height="10px" width="10px">
+                        <figcaption>08163313811</figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="gmail-removebg-preview.png" alt=" gmail" height="10px" width="10pxy">
+                        <figcaption>koneevibes@gmail.com</figcaption>
+                    </figure>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Connect with me when you're registered</h2>
+        <form action="" id="survey-form">
+            <div class="left">
+                <label id="firstname" for="firstname">
+                    <h4>First Name</h4> 
+                    <input id="firstname" required type="text" value=konee placeholder="Enter your first name here" size="30px">
+                </label>
+                <label id="lastname" for="lastname">
+                    <h4>Last Name</h4> 
+                    <input id="lastname" required type="text" placeholder="Enter your last name here" size="30px">
+                </label>
+                <label id="email" for="email">
+                    <h4>Email</h4>
+                    <input id="email" required type="email" placeholder="Enter your email here" size="30px">
+                </label>
+                <label id="number-label" for="phonenumber">
+                    <h4>Phone Number</h4>
+                    <input id="phonenumber" type="tel" placeholder="Enter your phone number here" size="30px">
+                </label>
+                <h4>Gender</h4>
+                <select name="gender" id="dropdown">
+                    <option value="">Male</option>
+                    <option value="">Female</option>
+                    <option value="">Prefer not to mention</option>
+                </select>
+            </div>
+            <div class="right">
+                <label id="country" for="country">
+                    <h4>Country</h4> 
+                    <input id="country" required type="text" placeholder="Enter your country here" size="30px">
+                </label>
+                <label id="state-province" for="state-province">
+                    <h4>State</h4> 
+                    <input id="state-province" required type="text" placeholder="Enter your state/province here" size="30px">
+                </label>
+                <label id="password" for="password">
+                    <h4>Password</h4> 
+                    <input id="password" required type="password" placeholder="Enter your password here" size="30px">
+                </label>
+                <label id="confirmpassword" for="confirmpassword">
+                    <h4>Confirm Password</h4> 
+                    <input id="confirmpassword" required type="password" value="password" placeholder="Enter your password here" size="30px">
+                </label>
+                <br>
+                <button id="submit">
+                <h4>Submit</h4>
+                </button>
+            </div>
+        </form>
+    </main>
+</body>
+<footer>
+    &copy;Copyright2022 Ofofonono Umoren
+</footer>
+</html>
