@@ -1,0 +1,503 @@
+body {
+    margin: 0;
+    /* background-image: url('bg-hero-desktop.svg'); */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+#primebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+#box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+#box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+#box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 0px 50px 0px; */
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonbox {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: -100px;
+    background-color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 50px;
+}
+.left {
+    flex: 40%;
+    margin-right: 50px;
+}
+
+.right {
+    flex: 40%;
+    margin-left: 50px;
+}
+
+#button1 {
+    border-radius: 30px;
+    padding: 0px 50px;
+    background-color: white;
+    border: solid;
+    border-color: white;
+}
+
+#button2 {
+    background-color: hsl(322, 100%, 66%);
+    border: solid;
+    border-color: hsl(193, 100%, 96%);
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+#button3 {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 0px 50px;
+    background-color: hsl(322, 100%, 66%);
+    border: solid;
+    border-color: hsl(322, 100%, 66%);
+}
+
+#one {
+    margin-top: 10px;
+    flex: 30%;
+}
+
+#two {
+    margin-top: 10px;
+    flex: 20%;
+}
+
+#three {
+    margin-top: 10px;
+    flex: 20%;
+}
+
+#four {
+    margin-top: 10px;
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+}
+
+#contactphone {
+    display: flex;
+    align-items: center;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+#icons {
+    display: flex;
+    margin-top: 200px;
+}
+
+#copyright{
+    padding-top: 200px;
+}
+
+@media screen and (width:375px) {
+    body {
+    margin: 0;
+    /* background-image: url('bg-hero-desktop.svg'); */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+#primebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+#box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+#box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+#box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 0px 50px 0px; */
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonbox {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: -100px;
+    background-color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 50px;
+}
+.left {
+    flex: 40%;
+    margin-right: 50px;
+}
+
+.right {
+    flex: 40%;
+    margin-left: 50px;
+}
+
+#button1 {
+    border-radius: 30px;
+    padding: 0px 50px;
+    background-color: white;
+    border: solid;
+    border-color: white;
+}
+
+#button2 {
+    background-color: hsl(322, 100%, 66%);
+    border: solid;
+    border-color: hsl(193, 100%, 96%);
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+#button3 {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 0px 50px;
+    background-color: hsl(322, 100%, 66%);
+    border: solid;
+    border-color: hsl(322, 100%, 66%);
+}
+
+#one {
+    margin-top: 10px;
+    flex: 30%;
+}
+
+#two {
+    margin-top: 10px;
+    flex: 20%;
+}
+
+#three {
+    margin-top: 10px;
+    flex: 20%;
+}
+
+#four {
+    margin-top: 10px;
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+}
+
+#contactphone {
+    display: flex;
+    align-items: center;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+#icons {
+    display: flex;
+    margin-top: 200px;
+}
+
+#copyright{
+    padding-top: 200px;
+}
+}
+@media screen  and (width:1440px){
+    body {
+    margin: 0;
+    /* background-image: url('bg-hero-desktop.svg'); */
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+#primebox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    background-color: hsl(193, 100%, 96%);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    margin: 100px;
+}
+
+#box1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+#box2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 0px 50px 0px;
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+#box3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* margin: 0px 0px 50px 0px; */
+    padding: 50px;
+    border: groove;
+    border-color: white;
+}
+
+.modal {
+    display: flex;
+    justify-content: center;
+}
+
+#buttonbox {
+    text-align: center;
+    border: 1px solid white;
+    border-radius: 10px;
+    width: 60%;
+    margin-bottom: -100px;
+    background-color: white;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: hsl(192, 100%, 9%);
+    color: white;
+    padding: 50px;
+}
+.left {
+    flex: 40%;
+    margin-right: 50px;
+}
+
+.right {
+    flex: 40%;
+    margin-left: 50px;
+}
+
+#button1 {
+    border-radius: 30px;
+    padding: 0px 50px;
+    background-color: white;
+    border: solid;
+    border-color: white;
+}
+
+#button2 {
+    background-color: hsl(322, 100%, 66%);
+    border: solid;
+    border-color: hsl(193, 100%, 96%);
+    border-radius: 30px;
+    margin-top: 30px;
+    padding: 0px 30px;
+}
+
+#button3 {
+    margin-bottom: 30px;
+    border-radius: 30px;
+    padding: 0px 50px;
+    background-color: hsl(322, 100%, 66%);
+    border: solid;
+    border-color: hsl(322, 100%, 66%);
+}
+
+#one {
+    margin-top: 10px;
+    flex: 30%;
+}
+
+#two {
+    margin-top: 10px;
+    flex: 20%;
+}
+
+#three {
+    margin-top: 10px;
+    flex: 20%;
+}
+
+#four {
+    margin-top: 10px;
+    flex: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#location {
+    display: flex;
+    align-items: center;
+}
+
+#contactphone {
+    display: flex;
+    align-items: center;
+}
+
+#email {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    margin-right: 10px;
+}
+
+#icons {
+    display: flex;
+    margin-top: 200px;
+}
+
+#copyright{
+    padding-top: 200px;
+}
+}
